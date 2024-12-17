@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+AU+VIC+Guides&display=swap');
+body{
+    margin: 0px;
+    background-color:black;
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:black;
+}
+.nav-left{
+    padding-left: 50px;
+    height: 200px;
+}
+
+.logo-img{
+    height: 200px;
+}
+.nav-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+.a-element{
+    padding: 10px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+}
+.home-left{
+    width: 50vh;
+    text-align: right;
+    padding-left: 200px;
+}
+.home-right{
+    width: 50vh;
+    padding-left: 100px;
+}
+.img{
+    height: 350px;
+    padding-right: 100px;
+}
+.home-head{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 25px;
+}
+.home-par{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+}
+.services{
+    padding: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+.services-head{
+    font-family: "Slackey", sans-serif;
+    color: rgb(46, 133, 46);
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-style: italic;
+}
+.ser-sub-coun{
+    display: flex;
+    flex-direction: row;
+   
+}
+.ser-card{
+    border: green solid 2px;
+    margin: 20px;
+    padding: 20px;
+    width: 450px;
+}
+.ser-head{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 35px;
+}
+.web-img{
+    height: 100px;
+}
+.ser-p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 10px;
+}
+.img-icon{
+    height: 50px;
+}
+.contact{
+    text-align: center;
+}
+.contact-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.insta-icon{
+    height: 40px;
+    padding: 20px;
+}
+
